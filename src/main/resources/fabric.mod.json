@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "waveform",
+    "version": "${version}",
+    "name": "Waveform",
+    "description": "Spice up your jukeboxes by adding an audio waveform to them!",
+    "authors": [
+        "Conor Byrne"
+    ],
+    "contact": {
+        "email": "hello@cbyrne.dev",
+        "sources": "https://github.com/cbyrneee/waveform",
+        "homepage": "https://cbyrne.dev",
+        "issues": "https://github.com/cbyrneee/waveform/issues"
+    },
+    "license": "MIT",
+    "icon": "assets/waveform/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "dev.cbyrne.waveform.Waveform"
+        ],
+        "modmenu": [
+            "dev.cbyrne.waveform.modmenu.ModMenuImpl"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.14.6",
+        "minecraft": "1.19.x",
+        "cloth-config": ">=7.0.65"
+    },
+    "suggests": {
+        "modmenu": ">=3.0.1"
+    }
+}
