@@ -8,7 +8,7 @@ import net.minecraft.util.registry.Registry;
 
 @SuppressWarnings("SameParameterValue")
 public class ItemRegistry {
-    public static final Item WAVEFORM_ITEM = new WaveformItem(EntityRegistry.WAVEFORM, new Item.Settings().group(ItemGroup.DECORATIONS));
+    public static final Item WAVEFORM_ITEM = new WaveformItem(EntityRegistry.WAVEFORM_ENTITY, new Item.Settings().group(ItemGroup.DECORATIONS));
 
     public static void register() {
         registerItem("waveform", WAVEFORM_ITEM);
